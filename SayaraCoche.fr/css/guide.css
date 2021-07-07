@@ -1,0 +1,146 @@
+:root{
+    --gradient: linear-gradient(
+      45deg, #1abc9c, #2980b9, #1abc9c, #2980b9
+    );
+  }
+  
+  *{
+      padding: 0;
+      margin: 0;
+      font-family: 'PT Sans', sans-serif;
+      text-decoration: none;
+    }
+    body{
+        overflow: hidden;
+    }
+    header{
+      width: 100%
+    }
+    
+    header h1{
+      display: block;
+      width: 30%;
+      font-size: 50px;
+      margin-top: 40px;
+      margin-left:  50px;
+      color: black;
+    }
+    
+    header h1:hover{
+      color: #16a085;
+      transition: 0.25s;
+    }
+    
+    header nav{
+      display: flex;
+      position: relative;
+      float: right;
+      margin-right: 40px;
+      margin-top: -52px;
+    }
+    
+    header nav a{
+      color: white;
+      display: inline-block;
+      font-size: 17px;
+      text-align: center;
+      width: 120px;
+      padding: 10px;
+      margin-right: 30px;
+      border-radius: 20px;
+      border: 2px solid #16a085;
+      background: #16a085;
+    }
+    
+    header nav a:hover{
+      color: #16a085;
+      background: white;
+      transition: 0.25s;
+    }
+
+    .content{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+        width: 70%;
+    }
+
+    .box h1{
+        font-size: 60px;
+
+    }
+    .box h2{
+        font-size: 40px;
+        color:#16a085 ;
+        margin-bottom: 20px;
+    }
+    .explication{
+        border: 2px solid #16a085;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.699);
+        padding: 40px;
+    }
+    .explication p{
+        font-size: 21px;
+        color: #363636  ;
+        margin-bottom: 40px;
+    }
+    .explication a{
+        background-image: var(--gradient);
+        background-size: 300%;
+        background-position: left;
+        padding: 15px;
+        font-size: 20px;
+        color: white;
+        border-radius: 10px;
+        transition: 1s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.842); 
+    }
+
+    .explication a:hover{
+        background-position: right;
+        transition: 1s;
+    }
+
+    footer{
+      margin-top: 10px;
+      display: block;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+    
+    footer a{
+      display: block;
+      float: right;
+      margin-right: 20px;
+      color: black;
+      margin-top: 5px;
+    }
+    
+    footer span:hover{
+      border-bottom: 2px solid black;
+      transition: 0.2s;
+    
+    }
+    
+    footer p{
+      display: inline-block;
+      margin-left: 25%;
+      margin-top: -10px;
+    }
+    
+    footer h2{
+      display: inline-block;
+      margin-left: 20px;
+    }
+    
+    
+    
